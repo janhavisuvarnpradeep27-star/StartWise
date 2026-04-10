@@ -1,0 +1,47 @@
+.sw-landing {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1c1f4a, #4b2fa6, #6a5cff);
+  padding: 24px;
+}
+
+.sw-landing-card {
+  width: min(520px, 92vw);
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 48px 40px;
+  box-shadow: 0 30px 60px rgba(9, 12, 48, 0.35);
+  color: #f4f5ff;
+  text-align: center;
+  backdrop-filter: blur(16px);
+}
+
+.sw-landing-card h1 {
+  font-size: 3rem;
+  margin: 16px 0 12px;
+}
+
+.sw-landing-card p {
+  margin: 0 0 32px;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.sw-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.sw-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

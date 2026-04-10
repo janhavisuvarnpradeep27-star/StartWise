@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  color: #f4f5ff;
+  background: #0f1124;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.sw-button {
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.sw-button.primary {
+  background: linear-gradient(135deg, #6b6bff, #8b5bff);
+  color: #fff;
+  box-shadow: 0 12px 24px rgba(96, 90, 255, 0.35);
+}
+
+.sw-button.ghost {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.sw-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(25, 28, 80, 0.35);
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
